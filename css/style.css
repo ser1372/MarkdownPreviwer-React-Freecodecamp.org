@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    background-color:chocolate;
+    color: #000;;
+}
+
+
+.textarea{
+    width: 100%;
+    font-size: 22px;
+    padding:20px;
+    border-radius:0px 20px;
+    outline: none;
+}
+
+.textarea:focus{
+    box-shadow: 0px 0px 3px 3px brown;
+}
+
+
+
+
+#preview{
+    padding: 40px;
+    text-align: left;
+    background-color: #fff;
+    color:black;
+    border: 1px solid balck;
+    box-shadow:1px 1px 5px 1px gray;
+    border-radius: 20px 0px;
+
+
+}
+
+#preview code{
+    background-color: rgb(139, 36, 36);
+    border-radius:4px;
+    padding: 5px 0px;
+    font-size:12px;
+    font-weight: bold;
+
+}
+
+#preview pre{
+    background-attachment: rgb(139, 36, 36);
+    padding:10px;
+
+}
